@@ -34,7 +34,7 @@ if __name__ == "__main__":
     app.run(debug=True)
 ```
 
-Posledné dva riadky sú zodpovedné za spustenie nami definovanej aplikácie. Opäť sa jedná o riadky, ktoré sú skoro vždy identické. Význam parametru `debug=True` si vysvetlíme v sekcii o ladení.
+Posledné dva riadky sú zodpovedné za spustenie nami definovanej aplikácie. Opäť sa jedná o riadky, ktoré sú skoro vždy identické. Význam parametru `debug=True` si vysvetlíme v sekcii o [ladení](#ladenie-debugging).
 
 ### Layout - meníme to, ako naša aplikácia vyzerá
 
