@@ -275,4 +275,4 @@ layout = dmc.Grid(
 
 Upozorníme ešte na nastavenie `m=0` u komponenty `dmc.Grid`. Väčšina komponent prichádza s prednastavenými rôznymi veľkosťami odsadenia. Pokiaľ chceme tieto prednastavené hodnoty zmeniť, je nutná odsadenie nastaviť manuálne. Pokiaľ by ste chceli jednotlivé odsadenia a celkové rozloženie stránky preskúmať podrobnejšie, odporúčame využiť vývojárskú konzolu dostupnú po stlačení klávesy <kbd>F12</kbd> v prehliadači. 
 
-![enter image description here](https://i.ibb.co/3mBQkg2/pp-layout-finished.png)
+![enter image description here](https://i.ibb.co/SVwpRGV/pp-layout-finished.png)
