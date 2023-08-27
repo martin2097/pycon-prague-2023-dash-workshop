@@ -172,7 +172,7 @@ Odsadenie na vonkajšej strane sa nazýva margin, na vnútornej je to padding. U
 - `mx`/`px` - nastaví right a left margin/padding
 - `my`/`py` - nastaví top a bottom margin/padding
 
-Spravíme teda ešte malú úpravu našej stránky "O mne". Celý `Stack` na vrchu odsadíme o 20 pixelov. Jednotlivé nápisy "Technické schopnosti" a "Mäkké schopnosti" odsadíme od zoznamov o 10 pixelov. 
+Spravíme teda ešte malú úpravu našej stránky "O mne". Celý `Stack` na vrchu odsadíme o 20 pixelov. Jednotlivé nápisy "Technické schopnosti" a "Mäkké schopnosti" odsadíme od zoznamov o 5 pixelov. 
 
 ```python
 from dash import register_page  
@@ -236,7 +236,7 @@ layout = dmc.Grid(
                             [  
                                 dmc.Col(  
                                     [  
-                                        dmc.Text("Technické schopnosti:"),  
+                                        dmc.Text("Technické schopnosti:", mb=5),  
                                         dmc.List(  
                                             [  
                                                 dmc.ListItem(item)  
@@ -248,7 +248,7 @@ layout = dmc.Grid(
                                 ),  
                                 dmc.Col(  
                                     [  
-                                        dmc.Text("Mäkké schopnosti:"),  
+                                        dmc.Text("Mäkké schopnosti:", mb=5),  
                                         dmc.List(  
                                             [  
                                                 dmc.ListItem(item)  
