@@ -110,6 +110,8 @@ layout = responzivny_stlpec_uprostred(
 ```
 
 `o-mne.py`:
+
+```python
 from dash import register_page  
 import dash_mantine_components as dmc  
 from utils import responzivny_stlpec_uprostred  
