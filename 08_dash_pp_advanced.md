@@ -496,4 +496,4 @@ clientside_callback(
 - Keďže sa v našom callbacku jedná už o druhý callback s `Output("vysuvacie-menu",  "opened")` musíme pridať parameter `allow_duplicate=True`
 - Všimnime si, že v callbacku `zavri_menu` sme v `Input({"index": ALL,  "type":  "odkaz-menu"},  "n_clicks")` miesto konkrétneho `id` využili štruktúru identifikátorov, ktoré sme pridávali. Tento callback sa teda spustí pri aktivácii akejkoľvek komponenty, ktorej identifikátor obsahuje `"type":  "odkaz-menu"`. Tejto štruktúre identifikátorov a využitia `ALL` (prípadne `MATCH`) sa hovorí Pattern matching.
 
-A máme hotov! Naša aplikácia je pripravená na zverejnenie.
+A máme hotovo! Naša aplikácia je pripravená na zverejnenie.
