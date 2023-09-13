@@ -39,7 +39,7 @@ Aplikáciu zaverzujeme aj s requirements.txt a pushneme.
 
 ### Nasadenie aplikácie na Render.com
 
-![enter image description here](https://i.ibb.co/zsBzbHM/create-render-app.gif)
+![enter image description here](/gifs/create-render-app.gif)
 
 1. Prihlásime sa do služby Render.com
 2. Klikneme na Dashboard
