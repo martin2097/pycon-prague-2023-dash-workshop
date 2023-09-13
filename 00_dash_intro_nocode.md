@@ -4,7 +4,7 @@ V dobe písania tohto článku je to presne 10 rokov od vydania knižnice Plotly
 ### Rozloženie a výzor
 Programovanie v Dashi rád vysvetľujem pomocou stavebníc LEGO.
 
-<img src="https://i.ibb.co/tcy4XSF/lego-van-gogh.webp" width="1000px"/>  |  <img src="https://media2.giphy.com/media/yoJC2MD0BBbw68Oht6/giphy.gif?cid=ecf05e47x1xhnq4vgdcdv9pskpjm90nnq099zziarjvrtf49&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="1000px"/>
+<img src="https://www.lego.com/cdn/cs/set/assets/blt0b4ca50328af5875/21333_alt2.png" width="1000px"/>  |  <img src="https://media2.giphy.com/media/yoJC2MD0BBbw68Oht6/giphy.gif?cid=ecf05e47x1xhnq4vgdcdv9pskpjm90nnq099zziarjvrtf49&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="1000px"/>
 :-------------------------:|:-------------------------:
 
 Naša aplikácia je vlastne ako stavebnica. Najjednoduchšími dielikmi, z ktorých môžeme poskladať našu aplikáciu sú html komponenty - nadpisy (`H1` - `H6`), paragraf (`P`), odkazy (`A`, `Link`), tlačidlá (`Button`), obrázky (`Img`), tabuľky (`Table`, `Tr`, `Td`) a mnoho ďalších. Tým z vás, ktorí niekedy vyvíjali weby sú tieto názvy pravdepodobne povedomé - nie je to náhoda. Keďže Dash slúži na tvorbu interaktívnych **webových** aplikácií, umožňuje pracovať práve s týmito webovými komponentami v pythone.
