@@ -368,6 +368,6 @@ Ako vidíme, tvorba samotnej tabuľky obsahuje iba pár riadkov:
 - Samotnú tabuľku následne vytvorí funkcia `dag.AgGrid` do ktorej zadáme parameter `columnDefs` a dáta, ktorými sa táto tabuľka naplní: `rowData=w_df.to_dict("records")` kde `w_df` je náš DataFrame, v ktorom máme dáta uložené
 - Skúste si jeden z názvov stĺpcov chytiť a prehodiť s iným stĺpcom. Niektoré funkcie AG Grid sme dostali úplne bez práce!
 
-![enter image description here](https://i.ibb.co/xm4XcX6/scitanie-hotovy-ugly-dashboard.gif)
+![enter image description here](/gifs/scitanie_hotovy_ugly_dashboard.gif)
 
-V poslednej kapitole tohto návodu si tento dashboard naštylizujeme, aby sme to mali pekné a následne ho pridáme na stránku Projekty.
+V predposlednej kapitole tohto návodu si tento dashboard naštylizujeme, aby sme to mali pekné a nakoniec ho pridáme na stránku Projekty.
