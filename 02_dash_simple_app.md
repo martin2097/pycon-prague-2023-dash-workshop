@@ -34,7 +34,7 @@ if __name__ == "__main__":
     app.run(debug=True)
 ```
 
-Posledné dva riadky sú zodpovedné za spustenie nami definovanej aplikácie. Opäť sa jedná o riadky, ktoré sú skoro vždy identické. Význam parametru `debug=True` si vysvetlíme v sekcii o [ladení](#ladenie-debugging).
+Posledné dva riadky sú zodpovedné za spustenie nami definovanej aplikácie. Opäť sa jedná o riadky, ktoré sú skoro vždy identické. Význam parametru `debug=True` si vysvetlíme v sekcii o [ladení](#ladenie---debugging).
 
 ### Layout - meníme to, ako naša aplikácia vyzerá
 
@@ -110,7 +110,7 @@ Callback sa spustí pri zmene parametru `n_clicks` tlačidla s identifikátorom 
 
 Ako som sľúbil na začiatku, je čas sa pozrieť na to, akú funkciu má parameter `debug = True`. Aplikácia je hotová, poďme sa na ňu teda konečne pozrieť!
 
-![enter image description here](https://i.ibb.co/LhKCDjk/ladenie-aplikacie-surprised.gif)
+![enter image description here](/gifs/ladenie_aplikacie_surprised.gif)
 
 Úspešne sme vytvorili našu prvú chybu! Pokiaľ spustíme aplikáciu s parametrom `debug = True`, aplikácia sa spustí v režime ladenia. Všimnime si, že pri spustení aplikácie v prehliadači vidíme v pravom dolnom rohu menu. Toto menu nám umožňuje zobraziť rôzne funkcie, ktoré nám pomôžu ladiť našu aplikáciu. Jednou z týchto funkcií je zobrazovanie chýb, ktoré vzniknú v behu callbackov. 
 
