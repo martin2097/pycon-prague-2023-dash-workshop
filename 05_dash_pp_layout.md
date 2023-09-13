@@ -1,6 +1,7 @@
 # Tvoríme osobné stránky - rozloženie aplikácie
 
 V tejto kapitole sa zameriame na spôsoby, ako môžeme zabezpečiť rozmiestnenie jednotlivých komponent na stránke. Pripomeňme si 2 aplikácie, ktoré sme už videli:
+
  ![enter image description here](https://i.ibb.co/b1yT3DR/funkcna-aplikacia.gif)
  ![enter image description here](https://i.ibb.co/NKSYxZv/pp-multipage-first.gif)
 
