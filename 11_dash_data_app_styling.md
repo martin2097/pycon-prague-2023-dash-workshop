@@ -84,7 +84,7 @@ layout = responzivny_stlpec_uprostred(
 - U samotnej `dcc.Graf` sme pridali parameter `config`, v ktorom sme  vypli niektoré interaktívne funkcie - opäť hlavne kvôli mobilným zariadeniam
 - U `dcc.Stack`, ktorý obsahuje celý náš layout sme pridali `spacing` aby celý layout pôsobil vzdušnejšie
 
-![enter image description here](https://i.ibb.co/X5gkzHh/scitanie-styled-layout.gif)
+![enter image description here](/gifs/scitanie_styled_layout.gif)
 
 Všimnime si, že v tmavom režime sa nám nemení štylizácia grafu ani tabuľky. Je to spôsobené tým, že ako `dcc.Graph`, tak `dag.AgGrid` nie sú z knižnice `dmc` a teda tu budeme musieť prispôsobenie vytvoriť sami.
 
@@ -170,7 +170,7 @@ def data_do_grafu(uzemie, timestamp, theme):
 
 >  :bulb: **Tip:** Syntax `a if condition else  b` je príkladom jednoriadkového zápisu syntaxe `if`. Funguje ako by ste predpokladali: keď je podmienka `cond` splnená vykoná sa `a` inak sa vykoná `b`
 
-![enter image description here](https://i.ibb.co/6Np97YC/scitanie-styled-figure.gif)
+![enter image description here](/gifs/scitanie_styled_figure.gif)
 
 Možností štylizácie a úprav grafov Plotly je obrovské množstvo a vydalo by na sériu samostatných návodov :)
 
@@ -247,7 +247,7 @@ def obnov_tabulku(uzemie, timestamp, theme):
 	- `"animateRows"` pridá animácie
 	- `"domLayout":  "autoHeight"` nastaví aby sa výška tabuľky prispôsobila počtu riadkov.
 
-![enter image description here](https://i.ibb.co/VYhDyFL/scitanie-styled-table.gif)
+![enter image description here](/gifs/scitanie_styled_table.gif)
 
 Pre úplnosť pridajme ešte kompletný kód.
 
