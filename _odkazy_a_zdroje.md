@@ -19,6 +19,11 @@ Odkazy na oficiálnu dokumentáciu.
 - [Plotly](https://plotly.com/python/)
 - [pandas](https://pandas.pydata.org/docs/)
 
+Okrem dokumentácie existuje ešte niekoľko zdrojov vhodných pre vzdelávania:
+
+- [Charming Data](https://www.youtube.com/@CharmingData) - YouTube kanál Adama Schroedera - aktuálne Community Managera v Plotly
+- [The Book of Dash](https://go.plotly.com/book-of-dash) - Tutoriály v knižnej podobe
+
 ### Galérie
 
 Odkazy na galérie, v ktorých môžete hľadať ďalšiu inšpiráciu.
