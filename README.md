@@ -1,2 +1,2 @@
 # pycon-prague-2023-dash-workshop
-Repository with materials related to Dash Workshop that took place on Pycon Prague 2023
+Repository with materials related to Dash Workshop that took place on PyCon CZ 23 in Prague.
